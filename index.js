@@ -42,10 +42,9 @@ function findTheCheese (foods) {
   function wordWithB(words) {
     var withB = ['Bob', 'Billy', 'Bruce'];
     for (var i = 0; i < words.length; i++) {
-      if (words.startsWith(B) >= 0) {
+      if (words.startsWith(B)) {
         return words[i];
       }
     }
     return [];
   }
-  
