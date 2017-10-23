@@ -30,11 +30,21 @@ function longPlaneteerCalls(words) {
 
 
 function findTheCheese (foods) {
-  var cheese = ['cheddar', 'gouda', 'camembert'];
+  var cheese = ['cheddar', 'gouda', 'camembert', 'swiss cheese'];
   for (var i = 0; i < cheese.length; i++) {
   if (foods.indexOf(cheese[i]) >= 0) {
     return cheese[i];
   }
   }
   return 'no cheese!'
+  }
+
+  function wordWithB(words) {
+    var withB = ['Bob', 'Billy', 'Bruce'];
+    for (var i = 0; i < words.length; i++) {
+      if (words.startsWith(B) >= 0) {
+        return words[i];
+      }
+    }
+    return "no b's";
   }
