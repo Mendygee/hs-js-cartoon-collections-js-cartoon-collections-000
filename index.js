@@ -46,5 +46,6 @@ function findTheCheese (foods) {
         return words[i];
       }
     }
-    return "no b's";
+    return [];
   }
+  
